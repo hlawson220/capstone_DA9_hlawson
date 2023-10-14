@@ -1,0 +1,803 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0611.2007                               -->
+<workbook original-version='18.1' source-build='2023.2.0 (20232.23.0611.2007)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='patient_surveycsv (patient_surveycsv excel)' inline='true' name='federated.1p407qd0pwpgg61d5n36h1avqqhr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='patient_surveycsv excel' name='excel-direct.02xdakb0kao3ut17lk2ej1p6uq41'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Hlaws/OneDrive/Desktop/Bootcamp/Capstone/capstone_DA9_hlawson/data/patient_surveycsv excel.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.02xdakb0kao3ut17lk2ej1p6uq41' name='patient_surveycsv' table='[patient_surveycsv$]' type='table'>
+          <columns gridOrigin='A1:V745:no:A1:V745:0' header='yes' outcome='2'>
+            <column datatype='string' name='facility_id' ordinal='0' />
+            <column datatype='string' name='facility_name' ordinal='1' />
+            <column datatype='string' name='address' ordinal='2' />
+            <column datatype='string' name='citytown' ordinal='3' />
+            <column datatype='string' name='state' ordinal='4' />
+            <column datatype='integer' name='zip_code' ordinal='5' />
+            <column datatype='string' name='countyparish' ordinal='6' />
+            <column datatype='string' name='telephone_number' ordinal='7' />
+            <column datatype='string' name='hcahps_measure_id' ordinal='8' />
+            <column datatype='string' name='hcahps_question' ordinal='9' />
+            <column datatype='string' name='hcahps_answer_description' ordinal='10' />
+            <column datatype='string' name='patient_survey_star_rating' ordinal='11' />
+            <column datatype='integer' name='patient_survey_star_rating_footnote' ordinal='12' />
+            <column datatype='string' name='hcahps_answer_percent' ordinal='13' />
+            <column datatype='integer' name='hcahps_answer_percent_footnote' ordinal='14' />
+            <column datatype='string' name='hcahps_linear_mean_value' ordinal='15' />
+            <column datatype='integer' name='number_of_completed_surveys' ordinal='16' />
+            <column datatype='integer' name='number_of_completed_surveys_footnote' ordinal='17' />
+            <column datatype='integer' name='survey_response_rate_percent' ordinal='18' />
+            <column datatype='integer' name='survey_response_rate_percent_footnote' ordinal='19' />
+            <column datatype='date' name='start_date' ordinal='20' />
+            <column datatype='date' name='end_date' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.02xdakb0kao3ut17lk2ej1p6uq41' name='patient_surveycsv' table='[patient_surveycsv$]' type='table'>
+          <columns gridOrigin='A1:V745:no:A1:V745:0' header='yes' outcome='2'>
+            <column datatype='string' name='facility_id' ordinal='0' />
+            <column datatype='string' name='facility_name' ordinal='1' />
+            <column datatype='string' name='address' ordinal='2' />
+            <column datatype='string' name='citytown' ordinal='3' />
+            <column datatype='string' name='state' ordinal='4' />
+            <column datatype='integer' name='zip_code' ordinal='5' />
+            <column datatype='string' name='countyparish' ordinal='6' />
+            <column datatype='string' name='telephone_number' ordinal='7' />
+            <column datatype='string' name='hcahps_measure_id' ordinal='8' />
+            <column datatype='string' name='hcahps_question' ordinal='9' />
+            <column datatype='string' name='hcahps_answer_description' ordinal='10' />
+            <column datatype='string' name='patient_survey_star_rating' ordinal='11' />
+            <column datatype='integer' name='patient_survey_star_rating_footnote' ordinal='12' />
+            <column datatype='string' name='hcahps_answer_percent' ordinal='13' />
+            <column datatype='integer' name='hcahps_answer_percent_footnote' ordinal='14' />
+            <column datatype='string' name='hcahps_linear_mean_value' ordinal='15' />
+            <column datatype='integer' name='number_of_completed_surveys' ordinal='16' />
+            <column datatype='integer' name='number_of_completed_surveys_footnote' ordinal='17' />
+            <column datatype='integer' name='survey_response_rate_percent' ordinal='18' />
+            <column datatype='integer' name='survey_response_rate_percent_footnote' ordinal='19' />
+            <column datatype='date' name='start_date' ordinal='20' />
+            <column datatype='date' name='end_date' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:V745:no:A1:V745:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>facility_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[facility_id]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>facility_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>facility_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[facility_name]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>facility_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>address</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[address]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>address</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>citytown</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[citytown]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>citytown</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zip_code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[zip_code]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>zip_code</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>countyparish</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[countyparish]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>countyparish</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>telephone_number</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[telephone_number]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>telephone_number</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hcahps_measure_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[hcahps_measure_id]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>hcahps_measure_id</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hcahps_question</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[hcahps_question]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>hcahps_question</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hcahps_answer_description</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[hcahps_answer_description]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>hcahps_answer_description</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient_survey_star_rating</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[patient_survey_star_rating]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>patient_survey_star_rating</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient_survey_star_rating_footnote</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[patient_survey_star_rating_footnote]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>patient_survey_star_rating_footnote</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hcahps_answer_percent</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[hcahps_answer_percent]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>hcahps_answer_percent</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hcahps_answer_percent_footnote</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hcahps_answer_percent_footnote]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>hcahps_answer_percent_footnote</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hcahps_linear_mean_value</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[hcahps_linear_mean_value]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>hcahps_linear_mean_value</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number_of_completed_surveys</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[number_of_completed_surveys]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>number_of_completed_surveys</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number_of_completed_surveys_footnote</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[number_of_completed_surveys_footnote]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>number_of_completed_surveys_footnote</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>survey_response_rate_percent</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[survey_response_rate_percent]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>survey_response_rate_percent</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>survey_response_rate_percent_footnote</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[survey_response_rate_percent_footnote]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>survey_response_rate_percent_footnote</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>start_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[start_date]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>start_date</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>end_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[end_date]</local-name>
+            <parent-name>[patient_surveycsv]</parent-name>
+            <remote-alias>end_date</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='patient_surveycsv' datatype='table' name='[__tableau_internal_object_id__].[patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2]' role='measure' type='quantitative' />
+      <column caption='Address' datatype='string' name='[address]' role='dimension' type='nominal' />
+      <column caption='Citytown' datatype='string' name='[citytown]' role='dimension' type='nominal' />
+      <column caption='Countyparish' datatype='string' name='[countyparish]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='End Date' datatype='date' name='[end_date]' role='dimension' type='ordinal' />
+      <column caption='Facility Id' datatype='string' name='[facility_id]' role='dimension' type='nominal' />
+      <column caption='Facility Name' datatype='string' name='[facility_name]' role='dimension' type='nominal' />
+      <column caption='Hcahps Answer Description' datatype='string' name='[hcahps_answer_description]' role='dimension' type='nominal' />
+      <column caption='Hcahps Answer Percent' datatype='string' name='[hcahps_answer_percent]' role='dimension' type='nominal' />
+      <column caption='Hcahps Answer Percent Footnote' datatype='integer' name='[hcahps_answer_percent_footnote]' role='measure' type='quantitative' />
+      <column caption='Hcahps Linear Mean Value' datatype='string' name='[hcahps_linear_mean_value]' role='dimension' type='nominal' />
+      <column caption='Hcahps Measure Id' datatype='string' name='[hcahps_measure_id]' role='dimension' type='nominal' />
+      <column caption='Hcahps Question' datatype='string' name='[hcahps_question]' role='dimension' type='nominal' />
+      <column caption='Number Of Completed Surveys' datatype='integer' name='[number_of_completed_surveys]' role='measure' type='quantitative' />
+      <column caption='Number Of Completed Surveys Footnote' datatype='integer' name='[number_of_completed_surveys_footnote]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Patient Survey Star Rating' datatype='string' default-role='measure' default-type='quantitative' name='[patient_survey_star_rating]' role='dimension' type='nominal' />
+      <column caption='Patient Survey Star Rating Footnote' datatype='integer' name='[patient_survey_star_rating_footnote]' role='measure' type='quantitative' />
+      <column caption='Start Date' datatype='date' name='[start_date]' role='dimension' type='ordinal' />
+      <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Survey Response Rate Percent' datatype='integer' name='[survey_response_rate_percent]' role='measure' type='quantitative' />
+      <column caption='Survey Response Rate Percent Footnote' datatype='integer' name='[survey_response_rate_percent_footnote]' role='measure' type='quantitative' />
+      <column caption='Telephone Number' datatype='string' name='[telephone_number]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Zip Code' datatype='integer' default-format='*00000' name='[zip_code]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='patient_surveycsv' id='patient!surveycsv_B5D2A56BC6BA431496D2581F00FAE6C2'>
+            <properties context=''>
+              <relation connection='excel-direct.02xdakb0kao3ut17lk2ej1p6uq41' name='patient_surveycsv' table='[patient_surveycsv$]' type='table'>
+                <columns gridOrigin='A1:V745:no:A1:V745:0' header='yes' outcome='2'>
+                  <column datatype='string' name='facility_id' ordinal='0' />
+                  <column datatype='string' name='facility_name' ordinal='1' />
+                  <column datatype='string' name='address' ordinal='2' />
+                  <column datatype='string' name='citytown' ordinal='3' />
+                  <column datatype='string' name='state' ordinal='4' />
+                  <column datatype='integer' name='zip_code' ordinal='5' />
+                  <column datatype='string' name='countyparish' ordinal='6' />
+                  <column datatype='string' name='telephone_number' ordinal='7' />
+                  <column datatype='string' name='hcahps_measure_id' ordinal='8' />
+                  <column datatype='string' name='hcahps_question' ordinal='9' />
+                  <column datatype='string' name='hcahps_answer_description' ordinal='10' />
+                  <column datatype='string' name='patient_survey_star_rating' ordinal='11' />
+                  <column datatype='integer' name='patient_survey_star_rating_footnote' ordinal='12' />
+                  <column datatype='string' name='hcahps_answer_percent' ordinal='13' />
+                  <column datatype='integer' name='hcahps_answer_percent_footnote' ordinal='14' />
+                  <column datatype='string' name='hcahps_linear_mean_value' ordinal='15' />
+                  <column datatype='integer' name='number_of_completed_surveys' ordinal='16' />
+                  <column datatype='integer' name='number_of_completed_surveys_footnote' ordinal='17' />
+                  <column datatype='integer' name='survey_response_rate_percent' ordinal='18' />
+                  <column datatype='integer' name='survey_response_rate_percent_footnote' ordinal='19' />
+                  <column datatype='date' name='start_date' ordinal='20' />
+                  <column datatype='date' name='end_date' ordinal='21' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Patient Satisfaction Rating</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='patient_surveycsv (patient_surveycsv excel)' name='federated.1p407qd0pwpgg61d5n36h1avqqhr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p407qd0pwpgg61d5n36h1avqqhr'>
+            <column-instance column='[patient_survey_star_rating]' derivation='CountD' name='[ctd:patient_survey_star_rating:qk]' pivot='key' type='quantitative' />
+            <column caption='Facility Name' datatype='string' name='[facility_name]' role='dimension' type='nominal' />
+            <column-instance column='[facility_name]' derivation='None' name='[none:facility_name:nk]' pivot='key' type='nominal' />
+            <column aggregation='CountD' caption='Patient Survey Star Rating' datatype='string' default-role='measure' default-type='quantitative' name='[patient_survey_star_rating]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1p407qd0pwpgg61d5n36h1avqqhr].[none:facility_name:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:facility_name:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:facility_name:nk]' member='&quot;METRO NASHVILLE GENERAL HOSPITAL&quot;' />
+                <groupfilter function='member' level='[none:facility_name:nk]' member='&quot;SAINT THOMAS HOSPITAL FOR SPINAL SURGERY&quot;' />
+                <groupfilter function='member' level='[none:facility_name:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.1p407qd0pwpgg61d5n36h1avqqhr].[none:facility_name:nk]' direction='DESC' using='[federated.1p407qd0pwpgg61d5n36h1avqqhr].[ctd:patient_survey_star_rating:qk]' />
+          <slices>
+            <column>[federated.1p407qd0pwpgg61d5n36h1avqqhr].[none:facility_name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1p407qd0pwpgg61d5n36h1avqqhr].[none:facility_name:nk]' value='364' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1p407qd0pwpgg61d5n36h1avqqhr].[ctd:patient_survey_star_rating:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.1p407qd0pwpgg61d5n36h1avqqhr].[ctd:patient_survey_star_rating:qk]' palette='tableau-orange-light' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.1p407qd0pwpgg61d5n36h1avqqhr].[ctd:patient_survey_star_rating:qk]' />
+              <text column='[federated.1p407qd0pwpgg61d5n36h1avqqhr].[ctd:patient_survey_star_rating:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1p407qd0pwpgg61d5n36h1avqqhr].[none:facility_name:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{B78A3985-B23F-412F-907E-6930DE001B99}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1p407qd0pwpgg61d5n36h1avqqhr].[ctd:patient_survey_star_rating:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1p407qd0pwpgg61d5n36h1avqqhr].[none:facility_name:nk]</field>
+            <field>[federated.1p407qd0pwpgg61d5n36h1avqqhr].[none:patient_survey_star_rating:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5EC5F461-7FC1-4BFC-BDFB-CB18569C87F7}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='150' name='Sheet 1' width='192'>
+      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
+      zCAAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

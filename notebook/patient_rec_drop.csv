@@ -1,0 +1,9 @@
+facility_name,hcahps_measure_id,hcahps_question,patient_survey_star_rating,number_of_completed_surveys
+TRISTAR SKYLINE MEDICAL CENTER,H_RECMND_STAR_RATING,Recommend hospital - star rating,2,511
+VANDERBILT UNIVERSITY MEDICAL CENTER,H_RECMND_STAR_RATING,Recommend hospital - star rating,5,3902
+ASCENSION SAINT THOMAS HOSPITAL,H_RECMND_STAR_RATING,Recommend hospital - star rating,4,4494
+METRO NASHVILLE GENERAL HOSPITAL,H_RECMND_STAR_RATING,Recommend hospital - star rating,Not Available,75
+TRISTAR CENTENNIAL MEDICAL CENTER,H_RECMND_STAR_RATING,Recommend hospital - star rating,5,474
+VA MIDDLE TENNESSEE HEALTHCARE SYSTEM,H_RECMND_STAR_RATING,Recommend hospital - star rating,4,400
+TRISTAR SOUTHERN HILLS MEDICAL CENTER,H_RECMND_STAR_RATING,Recommend hospital - star rating,4,408
+SAINT THOMAS HOSPITAL FOR SPINAL SURGERY,H_RECMND_STAR_RATING,Recommend hospital - star rating,5,337

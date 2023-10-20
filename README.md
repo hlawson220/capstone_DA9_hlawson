@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Hannah Lawson DA9 Capstone
 
 README.md
@@ -29,3 +30,6 @@ I will be looking at the patient survey results, er information, and readmission
 Data Sources
 
 This data was taken from 2019-2022.
+=======
+
+>>>>>>> f92ccfacec134cb3179794e5df168931316b004f

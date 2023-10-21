@@ -1,35 +1,41 @@
-<<<<<<< HEAD
+
 Hannah Lawson DA9 Capstone
 
-README.md
-Capstone Hannah Lawson DA9
-
 Executive Summary
-
-For my capstone, I want to look at the performance of Nashville hospitals. I specifically want to look into the results of a patient survey taken at those hospitals. This patient survey was given to a random sample of inpatients inquiring about their hospital experience. Patients were asked to rate each category from 1 to 5, with 5 being the best and 1 the worst. After looking at these results, I will be able to see how these Nashville hospitals stack up against each other. I will also be able to identify an area where they might need to do better when it comes to providing care. In addition to the patient survey, I will also be exploring readmission staus and various emergency room information within each hospital. Can these hospitals provide effective care and keep patients happy? Is there an area that needs to be improved? Are some Nashville hospitals providing better care than others? I will be using Python for data cleaning and Tableau for my presentation.
-
-Motivation
-
-I have a background in healthcare and I grew up in Nashville so I am familiar with many aspects of the data. I am also very intrested in learning more about data analytics in healthcare so I was really excited to get the opportunity to work with healthcare data. Additionally, being a patient is not always a fun experience, so you may find these insights helpful if you ever need to visit a hospital in the Nashville area.
-
-Data Question
-
-Are hospitals in Nashville able to provide effective care and keep patients satisfied?
-
-Minimum Viable Product (MVP)
-
-This data was narrowed down to cover five main Nashville hospitals.
+This presentation will taking a look into hospital performance in Nashville. Are hospitals in Nashville able to perform efficiently and keep patients satisfied? This question can be answered by looking into patient survey results, emergency room information, and readmission status. From the results, you can identify areas where these hospitals are excelling as well as areas that need improvement. 
+This data was taken from the Centers for Medicare and Medicade and was collected from 2019 - 2022. This data was narrowed down to cover five main Nashville hospitals. I used Python for data analysis and Tableau for visulization. 
 
 Ascension Saint Thomas
 Tristar Centennial Medical Center
 Tristar Skyline Medical Center
 Tristar Southern Hills Medical Center
 Vanderbilt University Medical Center
-I will be looking at the patient survey results, er information, and readmission status.
 
-Data Sources
+Motivation
+I have a background in healthcare and I grew up in Nashville so I am familiar with many aspects of the data. I am also very intrested in learning more about data analytics in healthcare so I was really excited to get the opportunity to work with healthcare data. Additionally, being a patient is not always a fun experience, so you may find these insights helpful if you ever need to visit a hospital in the Nashville area. 
 
-This data was taken from 2019-2022.
-=======
+Overall Rating
+A patient survey was given to a random sample of inpatients inquiring about their hospital experience. Patients were asked to rate each category from 1 to 5, with 5 being the best and 1 the worst. The overall rating slide will go over each hospitals overall rating from 1 to 5. This slide also includes patient recommendations. This is essentially asking if patients would recommend each hospital to someone else.
 
->>>>>>> f92ccfacec134cb3179794e5df168931316b004f
+Survey Results
+This slide goes over the patient survey results in detail. The survey was divided up into several categories and patients once again rated each one from 1 to 5. Below you can find each category description. 
+Care Transition - Did patients understand the care they recieved?
+Cleanliness - Was the hospital clean?
+Discharge information - Did patients understand instructions about their recovery?
+Doctor Communication - Did the doctor properly communicate to patients?
+Nurse Communication - Did nurses properly communicate to patients?
+Quietness - Did patients find their hospital room quiet?
+Staff responsivness - Was the staff responsive to the patients needs?
+
+Emergency Room
+This part of the presentation goes over emergency room information for each hospital. Here you can identify two categories, average time spent in the emergency room and the percent of patients that left the emergency room without being seen. The average time spent in the emergency room is listed in hours. This is an averge taken from the time patients got to the emergency room to the time they left. The other category is a percentage that represents the number of patients that for whatever reason left the emergency room before being seen. 
+
+Readmissions
+This portion is going to show the readmission rate of patients who were readmitted within 30 days of their initial visit. This value is in percent form.
+
+Conclusion
+In short, most hospitals in Nashville are able to perform effectively and keep patients happy. There are some areas where each hospital can improve on. It is my recommendation that each hospital look into those areas and consider making changes. 
+ 
+ 
+
+
